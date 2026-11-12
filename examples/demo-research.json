@@ -1,0 +1,45 @@
+{
+  "leads": [
+    {
+      "businessName": "Juniper Kitchen",
+      "reviewedOn": "Fictional demo",
+      "vibe": "A welcoming neighborhood restaurant with seasonal food.",
+      "needs": "A clear menu and a simple path to ordering.",
+      "paletteReason": "Warm neutrals and a fresh green accent suit the fictional concept.",
+      "uncertainFacts": ["This restaurant and all business details are fictional."],
+      "sources": [],
+      "photoPool": ["dining", "counter", "cafe", "pizza", "bar", "bakery"],
+      "alternateCopy": [
+        {"headline": "A place to gather", "intro": "Seasonal food for every day.", "menuTitle": "Explore the menu"},
+        {"headline": "Made for your table", "intro": "A neighborhood meal, your way.", "menuTitle": "Find your favorite"},
+        {"headline": "Fresh from the kitchen", "intro": "Simple food, warmly served.", "menuTitle": "See what is cooking"},
+        {"headline": "Come as you are", "intro": "Good food and good company.", "menuTitle": "Browse the menu"},
+        {"headline": "Gather around", "intro": "A welcoming spot for any day.", "menuTitle": "Start with the menu"},
+        {"headline": "Your next favorite meal", "intro": "Fresh ideas from a neighborhood kitchen.", "menuTitle": "Explore dishes"}
+      ],
+      "variants": [
+        {
+          "id": "juniper-cinematic", "label": "Warm welcome", "layout": "cinematic", "sourceSceneId": "dining", "heroAssetId": "dining",
+          "colors": {"ink": "#302922", "paper": "#f7efe2", "accent": "#59764b"},
+          "eyebrow": "Juniper Kitchen", "headline": "A place to gather", "intro": "Seasonal food for every day.",
+          "menuTitle": "Explore the menu", "menuItems": ["Seasonal plates", "Fresh sides", "House desserts"],
+          "designSignature": "A large food photograph creates an inviting first impression."
+        },
+        {
+          "id": "juniper-editorial", "label": "Neighborhood story", "layout": "editorial", "sourceSceneId": "cafe", "heroAssetId": "cafe",
+          "colors": {"ink": "#3a3029", "paper": "#f4ede1", "accent": "#8b6247"},
+          "eyebrow": "Juniper Kitchen", "headline": "Made for your table", "intro": "A neighborhood meal, your way.",
+          "menuTitle": "Find your favorite", "menuItems": ["Kitchen favorites", "Vegetable plates", "Something sweet"],
+          "designSignature": "Editorial spacing gives the restaurant a personal feel."
+        },
+        {
+          "id": "juniper-counter", "label": "Easy ordering", "layout": "counter", "sourceSceneId": "counter", "heroAssetId": "counter",
+          "colors": {"ink": "#27332b", "paper": "#f7f2e7", "accent": "#4f7650"},
+          "eyebrow": "Juniper Kitchen", "headline": "Fresh from the kitchen", "intro": "Simple food, warmly served.",
+          "menuTitle": "See what is cooking", "menuItems": ["Quick picks", "Main plates", "Desserts"],
+          "designSignature": "A menu-first layout makes ordering easy to find."
+        }
+      ]
+    }
+  ]
+}

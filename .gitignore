@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.asset-work/
+*.log
+.local/
+dist-review/
+.work/
+FOH Lead Research 2026-11-12.docx
+.history/
+handoff-data/
+TRANSFER.md
+TRANSFER-MANIFEST.json
+FOH Lead Research *.docx

@@ -1,0 +1,1206 @@
+{
+  "schemaVersion": "5.0.0",
+  "defaultRestaurantName": "Your restaurant",
+  "defaultColors": {
+    "baseHue": 26,
+    "accentHue": 14
+  },
+  "contactEmail": "hello@fohrestaurants.com",
+  "scenes": [
+    {
+      "id": "dining",
+      "layout": "cinema",
+      "designSignature": "Full-room photography fills the opening with a low, left-anchored title. The menu opens with a wide room still and ends with an editorial credits band.",
+      "number": "01",
+      "styleLabel": "Editorial dining",
+      "previewLabel": "Dining",
+      "heroLine": "This could be your site.",
+      "heroSupport": "A first impression as considered as the experience waiting inside.",
+      "menuLine": "Your menu, worth lingering over.",
+      "menuSupport": "A space for the dishes people come back for.",
+      "tabs": [
+        {
+          "label": "At the table",
+          "items": [
+            "Your signature dish",
+            "Your seasonal plate",
+            "Your guests' favorite"
+          ]
+        },
+        {
+          "label": "After dinner",
+          "items": [
+            "Something sweet",
+            "A final pour",
+            "One more reason to stay"
+          ]
+        }
+      ],
+      "heroAssetId": "dining",
+      "menuAssetId": "dining"
+    },
+    {
+      "id": "counter",
+      "layout": "poster",
+      "designSignature": "A square-cornered sandwich print carries an attached black caption. Numbered tear-off tickets and a narrow perforation identify the menu.",
+      "number": "02",
+      "styleLabel": "Vibrant counter service",
+      "previewLabel": "Counter",
+      "heroLine": "Your food. Front and center.",
+      "heroSupport": "Make the first bite happen before they even walk in.",
+      "menuLine": "The menu they came to find.",
+      "menuSupport": "Easy to scan. Hard to forget.",
+      "tabs": [
+        {
+          "label": "Favorites",
+          "items": [
+            "Your crowd favorite",
+            "Your signature bite",
+            "Your go-to order"
+          ]
+        },
+        {
+          "label": "More to love",
+          "items": [
+            "Your side of choice",
+            "Your daily special",
+            "A little something extra"
+          ]
+        }
+      ],
+      "heroAssetId": "counter",
+      "menuAssetId": "counter"
+    },
+    {
+      "id": "cafe",
+      "layout": "journal",
+      "designSignature": "An arched café window leads into a title beside a thin rule. A lined notebook with a vertical binding and a photo bookmark carries the menu.",
+      "number": "03",
+      "styleLabel": "Neighborhood café",
+      "previewLabel": "Café",
+      "heroLine": "Your place, before they arrive.",
+      "heroSupport": "Let the warmth of your room come through the screen.",
+      "menuLine": "Make room for the good stuff.",
+      "menuSupport": "The familiar favorites and the next thing they'll try.",
+      "tabs": [
+        {
+          "label": "From the counter",
+          "items": [
+            "Your morning favorite",
+            "Your freshly made treat",
+            "Your house specialty"
+          ]
+        },
+        {
+          "label": "Stay a while",
+          "items": [
+            "Your afternoon pick-me-up",
+            "Something for the table",
+            "Your little indulgence"
+          ]
+        }
+      ],
+      "heroAssetId": "cafe",
+      "menuAssetId": "cafe"
+    },
+    {
+      "id": "pizza",
+      "layout": "table",
+      "designSignature": "A centered pizza sits on a striped tabletop above the invitation. A smaller circular image and rounded order labels carry that radial composition into the menu.",
+      "number": "04",
+      "styleLabel": "Modern pizzeria",
+      "previewLabel": "Pizzeria",
+      "heroLine": "Your best slice, on full display.",
+      "heroSupport": "A site with the same energy as the room and the oven.",
+      "menuLine": "A menu they can almost taste.",
+      "menuSupport": "Give the favorites their moment in the spotlight.",
+      "tabs": [
+        {
+          "label": "From the oven",
+          "items": [
+            "Your house favorite",
+            "Your seasonal creation",
+            "The one everyone shares"
+          ]
+        },
+        {
+          "label": "For the table",
+          "items": [
+            "Start with something good",
+            "A side worth passing",
+            "Something sweet to finish"
+          ]
+        }
+      ],
+      "heroAssetId": "pizza",
+      "menuAssetId": "pizza"
+    },
+    {
+      "id": "bar",
+      "layout": "nocturne",
+      "designSignature": "An illuminated doorway contains the centered evening invitation. The dark drinks menu has double rules and an off-center photograph with a curved corner.",
+      "number": "05",
+      "styleLabel": "Cocktail bar",
+      "previewLabel": "Cocktail bar",
+      "heroLine": "Make the evening begin here.",
+      "heroSupport": "Set the mood before the first glass is poured.",
+      "menuLine": "Pour your point of view.",
+      "menuSupport": "A drinks list with the atmosphere built in.",
+      "tabs": [
+        {
+          "label": "At the bar",
+          "items": [
+            "Your signature pour",
+            "Your fresh take",
+            "A guest favorite"
+          ]
+        },
+        {
+          "label": "Stay a while",
+          "items": [
+            "Something to share",
+            "One more round",
+            "Your late-night pick"
+          ]
+        }
+      ],
+      "heroAssetId": "bar",
+      "menuAssetId": "bar"
+    },
+    {
+      "id": "bakery",
+      "layout": "market",
+      "designSignature": "A wide bread counter carries a flour-paper label over its lower left edge. The menu puts the dishes on individual shelf labels under the photo.",
+      "number": "06",
+      "styleLabel": "Artisan bakery",
+      "previewLabel": "Bakery",
+      "heroLine": "Let the good bread speak.",
+      "heroSupport": "The care you put into every loaf should show up online.",
+      "menuLine": "Fresh from your counter.",
+      "menuSupport": "Make it easy to see what makes a visit worthwhile.",
+      "tabs": [
+        {
+          "label": "Baked today",
+          "items": [
+            "Your daily loaf",
+            "Your oven favorite",
+            "Something warm for now"
+          ]
+        },
+        {
+          "label": "Take something home",
+          "items": [
+            "A little extra for later",
+            "Your weekend favorite",
+            "Something to bring along"
+          ]
+        }
+      ],
+      "heroAssetId": "bakery",
+      "menuAssetId": "bakery"
+    },
+    {
+      "id": "noodle",
+      "layout": "noodle",
+      "number": "07",
+      "styleLabel": "Noodle house",
+      "previewLabel": "Noodles",
+      "designSignature": "A chopstick rule leads into an offset bowl photograph. The narrow receipt menu puts numbered lines and a tall image next to each other.",
+      "heroLine": "A bowl worth coming in for.",
+      "heroSupport": "Let the warmth and motion of your kitchen lead the way.",
+      "menuLine": "The menu, with a little heat.",
+      "menuSupport": "Put the dishes people crave within easy reach.",
+      "tabs": [
+        {
+          "label": "Bowls",
+          "items": [
+            "Your signature bowl",
+            "Your spicy favorite",
+            "Your comforting classic"
+          ]
+        },
+        {
+          "label": "Alongside",
+          "items": [
+            "Something crisp",
+            "Your house side",
+            "A little more to share"
+          ]
+        }
+      ],
+      "heroAssetId": "noodle",
+      "menuAssetId": "noodle"
+    },
+    {
+      "id": "seafood",
+      "layout": "tide",
+      "number": "08",
+      "styleLabel": "Coastal seafood",
+      "previewLabel": "Seafood",
+      "designSignature": "A low, curved horizon fills the width below the headline. The seafood menu opens with a wide catch photograph and double dock rules.",
+      "heroLine": "Freshness you can feel.",
+      "heroSupport": "A first look that brings the table a little closer to the water.",
+      "menuLine": "The catch of your place.",
+      "menuSupport": "Give each fresh favorite room to breathe.",
+      "tabs": [
+        {
+          "label": "From the sea",
+          "items": [
+            "Your freshest plate",
+            "Your house special",
+            "The dish to share"
+          ]
+        },
+        {
+          "label": "To finish",
+          "items": [
+            "Something bright",
+            "Your table favorite",
+            "A final taste"
+          ]
+        }
+      ],
+      "heroAssetId": "seafood",
+      "menuAssetId": "seafood"
+    },
+    {
+      "id": "wine",
+      "layout": "cellar",
+      "number": "09",
+      "styleLabel": "Wine bistro",
+      "previewLabel": "Wine bistro",
+      "designSignature": "A slender wine photograph sits beside a wide italic headline, even on phones. The dark cellar list is followed by a low shelf of glassware.",
+      "heroLine": "Stay for one more glass.",
+      "heroSupport": "Your evening has a story. Give it a beautiful opening.",
+      "menuLine": "A list made for lingering.",
+      "menuSupport": "A thoughtful place for your pours and plates.",
+      "tabs": [
+        {
+          "label": "By the glass",
+          "items": [
+            "Your house pour",
+            "Your unexpected find",
+            "Your guest favorite"
+          ]
+        },
+        {
+          "label": "For the table",
+          "items": [
+            "A small beginning",
+            "Something to share",
+            "Your last bite"
+          ]
+        }
+      ],
+      "heroAssetId": "wine",
+      "menuAssetId": "wine"
+    },
+    {
+      "id": "diner",
+      "layout": "checkered",
+      "number": "10",
+      "styleLabel": "All-day diner",
+      "previewLabel": "Diner",
+      "designSignature": "Checker bands wrap the breakfast placemat. The menu is a narrow, numbered register slip with a short photo below it.",
+      "heroLine": "Good mornings live here.",
+      "heroSupport": "The kind of place people make part of their day.",
+      "menuLine": "All the good-day favorites.",
+      "menuSupport": "From first coffee to one last bite.",
+      "tabs": [
+        {
+          "label": "Morning",
+          "items": [
+            "Your all-day favorite",
+            "Your fresh start",
+            "Something savory"
+          ]
+        },
+        {
+          "label": "Later",
+          "items": [
+            "Your afternoon plate",
+            "Your sweet finish",
+            "Another cup"
+          ]
+        }
+      ],
+      "heroAssetId": "diner",
+      "menuAssetId": "diner"
+    },
+    {
+      "id": "taco",
+      "layout": "cantina",
+      "number": "11",
+      "styleLabel": "Colorful cantina",
+      "previewLabel": "Cantina",
+      "designSignature": "A sloped room panorama meets a sign that overlaps its lower edge. Contrasting dish strips step down the dark menu.",
+      "heroLine": "Bring them into your world.",
+      "heroSupport": "Let the room's character show before the door opens.",
+      "menuLine": "Big flavor, easy to find.",
+      "menuSupport": "Keep the choices inviting and the menu unmistakably yours.",
+      "tabs": [
+        {
+          "label": "The good stuff",
+          "items": [
+            "Your signature bite",
+            "Your favorite filling",
+            "The one to share"
+          ]
+        },
+        {
+          "label": "On the side",
+          "items": [
+            "Your bright side",
+            "Something extra",
+            "A sweet ending"
+          ]
+        }
+      ],
+      "heroAssetId": "taco",
+      "menuAssetId": "taco"
+    },
+    {
+      "id": "sushi",
+      "layout": "ink",
+      "number": "12",
+      "styleLabel": "Sushi counter",
+      "previewLabel": "Sushi",
+      "designSignature": "A right-aligned invitation leads into a slim sashimi ribbon. The menu uses columns of unnumbered dishes and a photograph at its lower edge.",
+      "heroLine": "Every detail belongs.",
+      "heroSupport": "A simple, precise setting for the craft on the plate.",
+      "menuLine": "A menu with intention.",
+      "menuSupport": "Give your craft the clear presentation it deserves.",
+      "tabs": [
+        {
+          "label": "From the counter",
+          "items": [
+            "Your signature selection",
+            "Your seasonal choice",
+            "Your chef's favorite"
+          ]
+        },
+        {
+          "label": "Alongside",
+          "items": [
+            "A small beginning",
+            "Your house pairing",
+            "A final bite"
+          ]
+        }
+      ],
+      "heroAssetId": "sushi",
+      "menuAssetId": "sushi"
+    },
+    {
+      "id": "steak",
+      "layout": "fire",
+      "number": "13",
+      "styleLabel": "Modern steakhouse",
+      "previewLabel": "Steakhouse",
+      "designSignature": "A steep, angular crop frames the steak. The menu title overlaps the grilled dish photograph, with the ledger alongside or below it.",
+      "heroLine": "Make an entrance.",
+      "heroSupport": "An unmistakable first look at what you do best.",
+      "menuLine": "The main event, right here.",
+      "menuSupport": "A menu built around the dishes worth coming for.",
+      "tabs": [
+        {
+          "label": "From the grill",
+          "items": [
+            "Your signature cut",
+            "Your house favorite",
+            "Your special plate"
+          ]
+        },
+        {
+          "label": "At the table",
+          "items": [
+            "Your favorite side",
+            "Something to begin",
+            "A finish to remember"
+          ]
+        }
+      ],
+      "heroAssetId": "steak",
+      "menuAssetId": "steak"
+    },
+    {
+      "id": "dessert",
+      "layout": "patisserie",
+      "number": "14",
+      "styleLabel": "Dessert studio",
+      "previewLabel": "Dessert",
+      "designSignature": "An oval dessert plate is followed by a right-aligned italic caption. A smaller curved lens sits beside the tasting choices.",
+      "heroLine": "Something sweet is coming.",
+      "heroSupport": "A little anticipation belongs in every first impression.",
+      "menuLine": "Worth saving room for.",
+      "menuSupport": "Give the treats people remember their own spotlight.",
+      "tabs": [
+        {
+          "label": "In the case",
+          "items": [
+            "Your signature sweet",
+            "Your seasonal treat",
+            "Your guest favorite"
+          ]
+        },
+        {
+          "label": "With a cup",
+          "items": [
+            "Your perfect pairing",
+            "A little extra",
+            "One to take home"
+          ]
+        }
+      ],
+      "heroAssetId": "dessert",
+      "menuAssetId": "dessert"
+    },
+    {
+      "id": "garden",
+      "layout": "botanical",
+      "number": "15",
+      "styleLabel": "Garden kitchen",
+      "previewLabel": "Garden",
+      "designSignature": "A sloping green canopy frames the dish. The menu reads as a seasonal catalogue with one wide label above smaller cells.",
+      "heroLine": "Fresh feels like this.",
+      "heroSupport": "Let the ingredients set the tone from the first scroll.",
+      "menuLine": "Good things in season.",
+      "menuSupport": "A living place for the plates that change with you.",
+      "tabs": [
+        {
+          "label": "In season",
+          "items": [
+            "Your freshest plate",
+            "Your garden favorite",
+            "Your daily special"
+          ]
+        },
+        {
+          "label": "To share",
+          "items": [
+            "A bright beginning",
+            "Your side of choice",
+            "A little something more"
+          ]
+        }
+      ],
+      "heroAssetId": "garden",
+      "menuAssetId": "garden"
+    },
+    {
+      "id": "pasta",
+      "layout": "trattoria",
+      "number": "16",
+      "styleLabel": "Pasta trattoria",
+      "previewLabel": "Pasta",
+      "designSignature": "A tiled wall surrounds an inset plate photograph and dinner invitation. A warm red rule ties the folded family menu together.",
+      "heroLine": "Come hungry. Stay awhile.",
+      "heroSupport": "Your food and your welcome, in the same first impression.",
+      "menuLine": "Made for the table.",
+      "menuSupport": "A home for the dishes everyone asks about.",
+      "tabs": [
+        {
+          "label": "From the kitchen",
+          "items": [
+            "Your house pasta",
+            "Your seasonal favorite",
+            "Your comfort plate"
+          ]
+        },
+        {
+          "label": "For everyone",
+          "items": [
+            "Something to start",
+            "Your table side",
+            "A sweet finish"
+          ]
+        }
+      ],
+      "heroAssetId": "pasta",
+      "menuAssetId": "pasta"
+    },
+    {
+      "id": "icecream",
+      "layout": "scoop",
+      "number": "17",
+      "styleLabel": "Ice cream shop",
+      "previewLabel": "Ice cream",
+      "designSignature": "A storefront awning spans a full-width cone photograph. Rounded scoop tickets are arranged across a two-column counter.",
+      "heroLine": "A little joy, right away.",
+      "heroSupport": "Make the first visit feel like the first scoop.",
+      "menuLine": "Pick your happy place.",
+      "menuSupport": "Give every favorite its own little moment.",
+      "tabs": [
+        {
+          "label": "Scoops",
+          "items": [
+            "Your signature scoop",
+            "Your seasonal flavor",
+            "The one everyone loves"
+          ]
+        },
+        {
+          "label": "More joy",
+          "items": [
+            "Your little extra",
+            "Something to share",
+            "One for later"
+          ]
+        }
+      ],
+      "heroAssetId": "icecream",
+      "menuAssetId": "icecream"
+    },
+    {
+      "id": "farm",
+      "layout": "harvest",
+      "number": "18",
+      "styleLabel": "Farm table",
+      "previewLabel": "Farm table",
+      "designSignature": "A harvest panorama has a stepped lower edge. The menu puts a stall portrait beside a bulletin of dashed field notes.",
+      "heroLine": "Rooted in what is good.",
+      "heroSupport": "Show the care behind the food before the first visit.",
+      "menuLine": "What is good right now.",
+      "menuSupport": "A flexible home for the season's best.",
+      "tabs": [
+        {
+          "label": "At the table",
+          "items": [
+            "Your market plate",
+            "Your seasonal favorite",
+            "Your house special"
+          ]
+        },
+        {
+          "label": "To take home",
+          "items": [
+            "A good beginning",
+            "Something to share",
+            "Your sweet finish"
+          ]
+        }
+      ],
+      "heroAssetId": "farm",
+      "menuAssetId": "farm"
+    },
+    {
+      "id": "dimsum",
+      "layout": "fold",
+      "designSignature": "A pleated foldout carries two steamer photographs under a centered headline. The menu has individually folded dish strips.",
+      "number": "19",
+      "styleLabel": "Dim sum house",
+      "previewLabel": "Dim sum",
+      "heroLine": "The table starts here.",
+      "heroSupport": "A little ceremony in every shared plate.",
+      "menuLine": "Every favorite, ready to share.",
+      "menuSupport": "A welcoming place for everything your guests come to taste.",
+      "heroAssetId": "dumplings",
+      "menuAssetId": "dimsum-dinner",
+      "tabs": [
+        {
+          "label": "From the steamer",
+          "items": [
+            "Your signature plate",
+            "Your warm favorite",
+            "The one to share"
+          ]
+        },
+        {
+          "label": "Alongside",
+          "items": [
+            "A little beginning",
+            "Your house side",
+            "A sweet finish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brunch",
+      "layout": "daybreak",
+      "designSignature": "A binding rule separates a breakfast spread from a tall inset waffle photograph. The menu presents a recipe card alongside the waffle photo.",
+      "number": "20",
+      "styleLabel": "All-day brunch",
+      "previewLabel": "Brunch",
+      "heroLine": "Make the morning yours.",
+      "heroSupport": "Let your place feel like the best part of the day.",
+      "menuLine": "Good things, all day.",
+      "menuSupport": "The favorites that make people stay a little longer.",
+      "heroAssetId": "pancakes-table",
+      "menuAssetId": "berry-waffles",
+      "tabs": [
+        {
+          "label": "First things",
+          "items": [
+            "Your morning favorite",
+            "Your table classic",
+            "A fresh start"
+          ]
+        },
+        {
+          "label": "Later on",
+          "items": [
+            "Your midday pick",
+            "Something sweet",
+            "One more cup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roastery",
+      "layout": "roaster",
+      "designSignature": "A measured, industrial photo pair sits beside bold sans-serif type. Numbered samples run across the menu like a calibration log.",
+      "number": "21",
+      "styleLabel": "Coffee roastery",
+      "previewLabel": "Roastery",
+      "heroLine": "Make every cup count.",
+      "heroSupport": "Show the craft behind your daily ritual.",
+      "menuLine": "Your coffee, your way.",
+      "menuSupport": "A clear home for the drinks people come back for.",
+      "heroAssetId": "coffee-machine",
+      "menuAssetId": "espresso-cream",
+      "tabs": [
+        {
+          "label": "From the bar",
+          "items": [
+            "Your signature cup",
+            "Your everyday favorite",
+            "A slow moment"
+          ]
+        },
+        {
+          "label": "With your cup",
+          "items": [
+            "Something baked",
+            "Your little extra",
+            "A new favorite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oyster",
+      "layout": "shell",
+      "designSignature": "A right-aligned invitation frames an asymmetric shell crop with a round inset. The menu uses a scalloped image and stepped rules.",
+      "number": "22",
+      "styleLabel": "Oyster bar",
+      "previewLabel": "Oyster bar",
+      "heroLine": "A taste of the coast.",
+      "heroSupport": "Let the freshness lead the invitation.",
+      "menuLine": "The sea, on your menu.",
+      "menuSupport": "An easy way to browse what is good right now.",
+      "heroAssetId": "ordering-oysters",
+      "menuAssetId": "mussel-appetizer",
+      "tabs": [
+        {
+          "label": "On ice",
+          "items": [
+            "Your freshest favorite",
+            "Your house plate",
+            "A shared beginning"
+          ]
+        },
+        {
+          "label": "From the kitchen",
+          "items": [
+            "Your warm specialty",
+            "Something to share",
+            "A final bite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smokehouse",
+      "layout": "ember",
+      "designSignature": "A smoke photograph spans the page above a low rust-colored headline and a grill detail. A light butcher-paper list contrasts with the dark pit photograph.",
+      "number": "23",
+      "styleLabel": "Smokehouse",
+      "previewLabel": "Smokehouse",
+      "heroLine": "Good things take time.",
+      "heroSupport": "Give the heat, care, and character of your kitchen a first look.",
+      "menuLine": "The menu with some fire.",
+      "menuSupport": "Make your slow-made favorites easy to find.",
+      "heroAssetId": "bbq-meat",
+      "menuAssetId": "bbq-skewers",
+      "tabs": [
+        {
+          "label": "From the pit",
+          "items": [
+            "Your house favorite",
+            "Your smoky classic",
+            "The one to share"
+          ]
+        },
+        {
+          "label": "Alongside",
+          "items": [
+            "Your favorite side",
+            "A little extra",
+            "Something sweet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shared",
+      "layout": "linen",
+      "designSignature": "A centered invitation looks over a linen-covered table with a bread inset. A narrow center-fold menu puts its photo and dish list side by side on wide screens.",
+      "number": "24",
+      "styleLabel": "Shared-table kitchen",
+      "previewLabel": "Shared table",
+      "heroLine": "Make room for everyone.",
+      "heroSupport": "The best meals begin with a table worth gathering around.",
+      "menuLine": "A table full of possibility.",
+      "menuSupport": "Give your shared favorites their own place.",
+      "heroAssetId": "classy-meal",
+      "menuAssetId": "bread-basket",
+      "tabs": [
+        {
+          "label": "To begin",
+          "items": [
+            "Your first plate",
+            "Something for the table",
+            "Your fresh favorite"
+          ]
+        },
+        {
+          "label": "To stay",
+          "items": [
+            "Your house specialty",
+            "One more to share",
+            "A sweet finish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "layout": "ritual",
+      "designSignature": "Quiet typography and a fine rule introduce tall vessels and a square tea detail. The menu rows widen in sequence, like steps in the pour.",
+      "number": "25",
+      "styleLabel": "Tea house",
+      "previewLabel": "Tea house",
+      "heroLine": "Make space for a pause.",
+      "heroSupport": "Let the calm of your place come through the screen.",
+      "menuLine": "A menu made to slow down.",
+      "menuSupport": "A clear, gentle way to explore every cup.",
+      "heroAssetId": "teapot-cup",
+      "menuAssetId": "summertime-tea",
+      "tabs": [
+        {
+          "label": "Your pours",
+          "items": [
+            "Your house tea",
+            "Your seasonal favorite",
+            "Something comforting"
+          ]
+        },
+        {
+          "label": "With tea",
+          "items": [
+            "A little treat",
+            "Your perfect pairing",
+            "One for later"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burger",
+      "layout": "sticker",
+      "designSignature": "A framed takeout sign leads into layered burger photos. The menu opens on category buttons and puts dishes in a two-column tray.",
+      "number": "26",
+      "styleLabel": "Burger stand",
+      "previewLabel": "Burger stand",
+      "heroLine": "Bring on the good stuff.",
+      "heroSupport": "Your favorite bite deserves an entrance of its own.",
+      "menuLine": "A menu that gets to it.",
+      "menuSupport": "Big appetite, easy choices.",
+      "heroAssetId": "bacon-burgers",
+      "menuAssetId": "burgers-fries",
+      "tabs": [
+        {
+          "label": "The mains",
+          "items": [
+            "Your signature bite",
+            "Your crowd favorite",
+            "Your new classic"
+          ]
+        },
+        {
+          "label": "Alongside",
+          "items": [
+            "Your favorite side",
+            "Something extra",
+            "A sweet ending"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetable",
+      "layout": "mosaic",
+      "designSignature": "Staggered rectangles pair an ingredient close-up with a finished vegetable burger. Block-printed menu rows step across the page.",
+      "number": "27",
+      "styleLabel": "Vegetable kitchen",
+      "previewLabel": "Vegetable kitchen",
+      "heroLine": "Fresh looks good on you.",
+      "heroSupport": "A colorful welcome to the food you make.",
+      "menuLine": "Let the good things grow.",
+      "menuSupport": "A bright home for your most-loved plates.",
+      "heroAssetId": "eat-vegetables",
+      "menuAssetId": "veggie-burger",
+      "tabs": [
+        {
+          "label": "Today’s plates",
+          "items": [
+            "Your fresh favorite",
+            "Your seasonal bowl",
+            "Your house special"
+          ]
+        },
+        {
+          "label": "On the side",
+          "items": [
+            "Something crisp",
+            "Your little extra",
+            "A final taste"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foodhall",
+      "layout": "signage",
+      "designSignature": "A wayfinding arrow lives in a dark sign adjacent to the street-market photo wall. Full-width tabs and alternating strips organize the menu.",
+      "number": "28",
+      "styleLabel": "Market food hall",
+      "previewLabel": "Food hall",
+      "heroLine": "Come find something good.",
+      "heroSupport": "Bring the energy of your place to the first scroll.",
+      "menuLine": "A menu made to explore.",
+      "menuSupport": "Let every stop and specialty feel easy to find.",
+      "heroAssetId": "street-vendor",
+      "menuAssetId": "asian-street-food",
+      "tabs": [
+        {
+          "label": "Start here",
+          "items": [
+            "Your first favorite",
+            "Your house special",
+            "Something to share"
+          ]
+        },
+        {
+          "label": "Keep going",
+          "items": [
+            "Your next bite",
+            "A little extra",
+            "One more stop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sweetshop",
+      "layout": "bonbon",
+      "designSignature": "A striped sweet-shop display case pairs two rectangular pastry panes with an independent title. The menu uses individually wrapped bands.",
+      "number": "29",
+      "styleLabel": "Dessert counter",
+      "previewLabel": "Sweet counter",
+      "heroLine": "Leave room for sweets.",
+      "heroSupport": "A first look as tempting as your counter.",
+      "menuLine": "The sweet side of your menu.",
+      "menuSupport": "Give every treat its moment.",
+      "heroAssetId": "profiterole",
+      "menuAssetId": "spring-desserts",
+      "tabs": [
+        {
+          "label": "In the case",
+          "items": [
+            "Your signature sweet",
+            "Your daily favorite",
+            "The one to share"
+          ]
+        },
+        {
+          "label": "With a cup",
+          "items": [
+            "Your perfect pairing",
+            "Something small",
+            "One for later"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openkitchen",
+      "layout": "pass",
+      "designSignature": "A wide steel pass frames a working kitchen and a narrow prep photo. A numbered rail organizes the menu beside a chef-station photograph.",
+      "number": "30",
+      "styleLabel": "Open kitchen",
+      "previewLabel": "Open kitchen",
+      "heroLine": "Let them see the care.",
+      "heroSupport": "Show the people and process behind the plate.",
+      "menuLine": "From your kitchen to the table.",
+      "menuSupport": "Put the craft and the dishes side by side.",
+      "heroAssetId": "chefs-work",
+      "menuAssetId": "chef-station",
+      "tabs": [
+        {
+          "label": "From the kitchen",
+          "items": [
+            "Your signature plate",
+            "Your seasonal choice",
+            "The guest favorite"
+          ]
+        },
+        {
+          "label": "For the table",
+          "items": [
+            "Something to begin",
+            "Your shared favorite",
+            "A final course"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market-dispatch",
+      "layout": "broadsheet",
+      "number": "31",
+      "styleLabel": "Market dispatch",
+      "previewLabel": "Market dispatch",
+      "heroLine": "Fresh off the market.",
+      "heroSupport": "A market kitchen shaped by the stalls, growers, and flavors around it.",
+      "menuLine": "The market menu",
+      "menuSupport": "Start with something bright, then see what came in for the hot line.",
+      "heroAssetId": "asian-market",
+      "menuAssetId": "market-blueberries",
+      "designSignature": "A centered newspaper headline sits above an edge-aligned market photo spread, with the introduction below the photography. Menu items read in broadsheet columns followed by an ingredient photograph. Street and produce photography replace the signboard-and-inset treatment of Food Hall and the clipping motif of Farm Table.",
+      "tabs": [
+        {
+          "label": "Market plates",
+          "items": [
+            "Pickled market cucumbers",
+            "Herbs and greens with sesame",
+            "Roasted squash with chile crisp",
+            "Blueberries and lemon cream"
+          ]
+        },
+        {
+          "label": "Hot line",
+          "items": [
+            "Ginger-scallion rice bowl",
+            "Charred cabbage with black vinegar",
+            "Mushroom and tofu skewers",
+            "Sesame noodles with crisp shallots"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening-bar",
+      "layout": "record-sleeve",
+      "number": "32",
+      "styleLabel": "Listening bar",
+      "previewLabel": "Listening bar",
+      "heroLine": "Good drinks. Deep cuts.",
+      "heroSupport": "Settle in for a round and stay for the next side of the record.",
+      "menuLine": "The drinks list",
+      "menuSupport": "Pick a category to find your next pour.",
+      "heroAssetId": "bar-shelf",
+      "menuAssetId": "bar-shelf",
+      "designSignature": "A bar photograph becomes square sleeve art with a visible grooved record. The menu recrops the bottles as a shelf beside the vertical category selector and numbered track list. This square sleeve and navigation differ from the Cocktail Bar doorway and curved drinks photograph.",
+      "tabs": [
+        {
+          "label": "Stirred",
+          "items": [
+            "Black walnut old fashioned",
+            "Cacao and amaro Manhattan",
+            "Lemon peel martini"
+          ]
+        },
+        {
+          "label": "Shaken",
+          "items": [
+            "Grapefruit and rosemary sour",
+            "Ginger daiquiri",
+            "Passion fruit and lime"
+          ]
+        },
+        {
+          "label": "Zero proof",
+          "items": [
+            "Juniper and tonic",
+            "Black tea and stone fruit",
+            "Mint and cucumber fizz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curry-counter",
+      "layout": "order-board",
+      "number": "33",
+      "styleLabel": "Curry counter",
+      "previewLabel": "Curry counter",
+      "heroLine": "Curry by the bowl.",
+      "heroSupport": "Rich broth, springy noodles, and something sharp on the side.",
+      "menuLine": "Build your order",
+      "menuSupport": "Browse the bowls first, then add a side or something cool to drink.",
+      "heroAssetId": "curry-noodles",
+      "menuAssetId": "asian-noodles",
+      "designSignature": "A backlit sign leads straight into a rectangular curry panorama. The menu opens on a flat counter order board with large category switches, then closes with a photograph at the table. It uses a different order and geometry from Noodle House’s round bowl sign and order slip.",
+      "tabs": [
+        {
+          "label": "Bowls",
+          "items": [
+            "Coconut curry noodles with tofu",
+            "Chicken curry noodles",
+            "Dry curry noodles with greens"
+          ]
+        },
+        {
+          "label": "Sides",
+          "items": [
+            "Crisp shallot fritters",
+            "Quick pickled mustard greens",
+            "Cucumber with lime and chile"
+          ]
+        },
+        {
+          "label": "Drinks",
+          "items": [
+            "Iced black tea",
+            "Ginger-lime soda",
+            "Cold soy milk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flatbread-house",
+      "layout": "table-runner",
+      "number": "34",
+      "styleLabel": "Flatbread house",
+      "previewLabel": "Flatbread house",
+      "heroLine": "Tear, dip, pass it on.",
+      "heroSupport": "Warm flatbreads and generous bowls meant for the middle of the table.",
+      "menuLine": "For the middle",
+      "menuSupport": "Choose a bread, then find something to scoop up or pass around.",
+      "heroAssetId": "roti-flatbread",
+      "menuAssetId": "winter-hummus",
+      "designSignature": "Two full-width table photographs bookend a woven invitation on mobile. On desktop the invitation forms a horizontal runner laid between the dishes. The menu follows a shared-plate grid, distinct from Shared Table’s small bread inset and quiet menu sheet.",
+      "tabs": [
+        {
+          "label": "Breads",
+          "items": [
+            "Layered roti",
+            "Sesame griddle bread",
+            "Garlic and herb flatbread"
+          ]
+        },
+        {
+          "label": "Dips",
+          "items": [
+            "Lemon hummus with toasted seeds",
+            "Smoky eggplant with olive oil",
+            "Yogurt with mint and cucumber"
+          ]
+        },
+        {
+          "label": "For the table",
+          "items": [
+            "Charred carrots with sumac",
+            "Chickpeas with roasted peppers",
+            "Crisp greens with lemon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chocolate-atelier",
+      "layout": "tasting-box",
+      "number": "35",
+      "styleLabel": "Chocolate atelier",
+      "previewLabel": "Chocolate atelier",
+      "heroLine": "Open the chocolate box.",
+      "heroSupport": "A small collection of bonbons and baked chocolate to taste one piece at a time.",
+      "menuLine": "The tasting box",
+      "menuSupport": "Explore the fillings, choose a bar, or head straight to the bake case.",
+      "heroAssetId": "chocolates",
+      "menuAssetId": "brownies",
+      "designSignature": "The introduction is the lid of a rigid confectionery box with two edge-aligned chocolate compartments. The menu turns dish names into separate wells in a tray. The square grid and compartmentalized reading rhythm differ from the rounded display windows and ruled menus of the dessert and sweet-shop concepts.",
+      "tabs": [
+        {
+          "label": "Bonbons",
+          "items": [
+            "Dark chocolate and orange",
+            "Hazelnut praline",
+            "Salted caramel",
+            "Coffee ganache"
+          ]
+        },
+        {
+          "label": "Bars",
+          "items": [
+            "Dark chocolate and cocoa nib",
+            "Milk chocolate and almond",
+            "Bittersweet chocolate and sea salt"
+          ]
+        },
+        {
+          "label": "Bake case",
+          "items": [
+            "Brown butter brownie",
+            "Dark chocolate sablé",
+            "Cocoa and sour cherry cake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breakfast-club",
+      "layout": "sunburst",
+      "number": "36",
+      "styleLabel": "Breakfast club",
+      "previewLabel": "Breakfast club",
+      "heroLine": "Morning, together.",
+      "heroSupport": "A breakfast table made for another cup and one more story.",
+      "menuLine": "Breakfast is on",
+      "menuSupport": "Find something for the table, then pick what’s going in your cup.",
+      "heroAssetId": "brunch-friends",
+      "menuAssetId": "banana-pancakes",
+      "designSignature": "A radiating sunrise leads into a diagonal social-table photograph, with an oversized typographic invitation above it on mobile and across its upper edge on desktop. The rounded menu selector and food-first menu entry use a different rhythm from Brunch’s panorama and postcard.",
+      "tabs": [
+        {
+          "label": "From the griddle",
+          "items": [
+            "Banana pancakes with maple syrup",
+            "Buttermilk pancakes with berries",
+            "Cinnamon French toast"
+          ]
+        },
+        {
+          "label": "Savory",
+          "items": [
+            "Egg and cheddar breakfast roll",
+            "Hash with peppers and onions",
+            "Tomato toast with herbs"
+          ]
+        },
+        {
+          "label": "In your cup",
+          "items": [
+            "Filter coffee",
+            "Iced oat latte",
+            "Orange juice"
+          ]
+        }
+      ]
+    }
+  ]
+}
